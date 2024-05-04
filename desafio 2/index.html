@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">   
+        <form class="tudo" action="#">
+            <div id="inicio" class="pag1">
+                <section class="intro">
+                    <div class="forma"></div>
+                    <center>
+                        <img class="gov" src="./img/govma.png" alt="Governo Maranhão" width="350px" height="100px">
+                    </center>
+                    <div class="explicacao">Governo do estado do Maranhão, por meio da Secretaria de Ciências, Tecnologia e Inovação (SECTI) em parceria com a FAPEMA,<br>está promovendo um programa de formação de jovens e adultos para iniciarem na área de tecnologia.</div>
+                    <center>
+                        <button id="botaoInscrever" class="sub" type="button">Inscreva-se</button>
+                    </center>
+                </section>
+            </div>
+            <div id="et1" class="pag2">
+                    <section class="informacao1">
+                        <div class="titulo">Faça o login</div>
+                        <div class="forma"></div>
+                        <div class="info">Email:</div>
+                        <input class="mail" type="email" placeholder="Digite seu email" required>
+                        <div class="info">Senha:</div>
+                        <div class="senha">
+                            <input class="mail" type="password" id="espacoSenha" onclick="mostrarSenha" placeholder="Digite sua senha" required>
+                            <i class="bi bi-eye" id="mostrar" onclick="mostrarSenha()"></i>
+                        </div>
+                        <br>
+                        <center>
+                        <div class="botao">
+                            <button id="proximo1" class="prox" type="button">Próxima Etapa</button>
+                        </div>
+                    </center>
+                    </section>
+            </div>
+            <div id="et2" class="pag3">
+                <section class="informacao2">
+                    <div class="titulo">Dados Básicos</div>
+                    <div class="forma"></div>
+                    <div class="box1">
+                        <div class= "inforBasica">
+                            <div class="info">Primeiro Nome:</div>
+                            <input type="text" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        <div class= "inforBasica">
+                            <div class="info">Sobrenome:</div>
+                            <input type="text" placeholder="Digite seu sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class= "inforBasica">
+                            <div class="info">Data de Nascimento:</div>
+                            <input type="date" required>
+                        </div>
+                        <div class= "inforBasica">
+                            <div class="info">Gênero:</div>
+                            <select>
+                                <option selected disabled value="">Selecione</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class= "inforBasica">
+                            <div class="info">Declação Racial:</div>
+                            <select>
+                                <option selected disabled value="">Selecione</option>
+                                <option>Branco</option>
+                                <option>Pardo</option>
+                                <option>Negro</option>
+                                <option>Indígena</option>
+                                <option>Amarelo</option>
+                            </select>
+                        </div>
+                        <div class= "inforBasica">
+                            <div class="info">CPF:</div>
+                            <input type= "text" placeholder="Digite seu CPF" required>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class= "inforBasica">
+                            <div class="info">CEP:</div>
+                            <input class="lugar" type="text" placeholder="Digite seu CEP" required>
+                        </div>
+                        <div class= "inforBasica">
+                        <div class="info">Estado:</div>
+                            <select id="estado">
+                                <option selected disabled value="">Selecione</option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AP</option>
+                                <option>AM</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MT</option>
+                                <option>MS</option>
+                                <option>MG</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PR</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RS</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>SC</option>
+                                <option>SP</option>
+                                <option>SE</option>
+                                <option>TO</option>
+                                <option>DF</option>
+                            </select>
+                        </div>                  
+                        <div class= "inforBasica">
+                            <div class="info">Município:</div>
+                            <input class="lugar" type="text" placeholder="Digite seu Município">
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class= "inforBasica">
+                            <div class="info">Endereço:</div>
+                            <input type="text" placeholder="Digite seu Endereço">
+                        </div>
+                        <div class= "inforBasica">
+                            <div class="info">Número Celular:</div>
+                            <input type="text" placeholder="(xx) xxxx-xxxx">
+                        </div>
+                    </div>
+                        <div class= "inforBasica">
+                            <div class="info">Selecione uma Trilha:</div>
+                            <div class="trilhasOP">
+                                <select class="Trilha">
+                                    <option selected disabled value="">Selecione</option>
+                                    <option value="">Trilha Front-End</option>
+                                    <option value="">Trilha Back-End</option>
+                                    <option value="">Trilha Ciência de Dados</option>
+                                    <option value="">Trilha Jogos</option>
+                                    <option value="">Trilha Design</option>
+                                </select>
+                            </div>
+                        </div>
+                    <br>
+                    <div class="botao">
+                        <button id="volta1" class="volta" type="button">Voltar Etapa</button>
+                        <button id="proximo2" class="prox" type="button">Próxima Etapa</button>
+                    </div>
+                </section>
+            </div>
+            <div id="et3" class="pag4">
+                <section class="informacao3">
+                    <div class="titulo">Dados Acadêmicos</div>
+                    <div class="forma"></div>
+                    <div class="info">Nível de Escolaridade:</div>
+                    <div class="aviso">No mínimo tem que está cursando o Ensino Médio!</div>
+                    <select class="ensino">
+                        <option>Ensino Médio - Incompleto</option>
+                        <option>Ensino Médio - Completo</option>
+                        <option>Ensino Superior - Inconpleto</option>
+                        <option>Ensino Superior - Completo</option>
+                    </select>
+                    <div class="info">Rede de Ensino:</div>
+                    <div class="aviso">É obrigatório ter estudado em rede pública OU com bolsa integral(100%) em rede privada!</div>
+                    <select class="ensino">
+                        <option>Ensino Médio - Rede Pública</option>
+                        <option>Ensino Médio - Rede Privada com Bolsa Integral</option>
+                        <option>Ensino Superior - Rede Pública</option>
+                    </select>
+                    <div class="info">Nome da Instituição que estuda/estudou durante o Ensino Médio:</div>
+                    <input type="text" class="ensino" placeholder="Digite sua instituição escolar do ensino médio">
+                    <br>
+                    <div class="botao">
+                        <button id="volta2" class="volta" type="button">Voltar Etapa</button>
+                        <button id="proximo3" class="prox" type="button">Próxima Etapa</button>
+                    </div>
+                </section>
+            </div>
+            <div id="et4" class="pag5">
+                <section class="informacao3">
+                    <div class="titulo">Enviar Documentos</div>
+                    <div class="forma"></div>
+                    <div class="info">Envie o Documento RG:</div>
+                    <label class="submit" for="RG">
+                        <span class="nomeArquivo1">Selecione o arquivo(PDF)</span>
+                        <span class="documentSubmit">Selecione</span>
+                    </label>
+                    <input type= "file" id="RG" accept="application/pdf">
+                    <div class="info">Envie o Documento que comprove que comprove que você estuda ou já se formou em uma rede pública:</div>
+                    <label class="submit" for="comprovanteEs">
+                        <span class="nomeArquivo2">Selecione o arquivo(PDF)</span>
+                        <span class="documentSubmit">Selecione</span>
+                    </label>
+                    <input type= "file" id="comprovanteEs" required accept="application/pdf">
+                    <div class="info">Envie o comprovante de residência:</div>
+                    <label class="submit" for="comprovanteRe">
+                        <span class="nomeArquivo3">Selecione o arquivo(PDF)</span>
+                        <span class="documentSubmit">Selecione</span>
+                    </label>
+                    <input type= "file" id="comprovanteRe" required accept="application/pdf">
+                    <br>
+                    <div class="botao">
+                        <button id="volta3" class="volta" type="button">Voltar Etapa</button>
+                        <button onclick="enviar()" id="inscrever" class="prox" type="submit">Enviar Inscrição</button>
+                    </div>
+                </section>
+            </div>
+        </form>
+        <img class="imagem1" src="./img/logo.png" alt="Trilhas - Inova Maranhão">
+    </div>
+    <footer class="rodape">
+        <img src="./img/logos.png" alt="" width="750px" height="150px">
+        <p>Redes Socias:</p>
+        <div class="redesSociais">
+            <a href="https://www.instagram.com/inovamaranhao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <p>INOVA MARANHÃO</p>
+            </a>
+            <p>|</p>
+            <a href="https://www.instagram.com/fapema_oficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <p>FAPEMA</p>
+            </a>
+            <p>|</p>
+            <a href="https://www.instagram.com/sectimaranhao/">
+                <p>SECTI</p>
+            </a>
+            <p>|</p>
+            <a href="https://www.instagram.com/governoma?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <p>GOVERNO MARANHÃO</p>
+            </a>
+        </div>
+        <div class="criador">
+            <p>@Graziela Lucena</p>
+            <a class="link" href="https://www.instagram.com/graziela.llucena/">
+                <img src="./img/instagram.png" alt="">
+            </a>
+            <a class="link" href="https://github.com/Grazixz">
+                <img src="./img/github.png" alt="" width="30px" height="30px">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

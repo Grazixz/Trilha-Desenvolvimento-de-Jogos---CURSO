@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kaisei+Tokumin&family=Karla:ital@0;1&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background: #08003B;
+    font-family: "Karla", sans-serif;
+}
+
+.conteiner {
+    color: #D3D5E0;
+    margin: 12% 22%;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.gov {
+    margin-bottom: 50px;
+    margin-top: -500px;
+}
+
+.intro {
+    margin-left: -200px;
+    margin-top: -190px;
+    margin-bottom: -900px;
+    padding-top: 70%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:960px;
+    height:10in;
+    border: 8px solid #D3D5E0;
+    border-radius: 5px;
+}
+
+.explicacao {
+    font-size: 40px;
+    width: 950px;
+
+}
+
+.sub {
+    border: 1px solid #D3D5E0;
+    font-size: 45px;
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: -500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+input {
+    background-color:#D3D5E0 ;
+    border: #08003B;
+    font-size: 30px;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    outline: 0;
+}
+
+.imagem1 {
+    margin-top: -10%;
+    height: 700px;
+    width: 800px;
+}
+
+.info {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.aviso {
+    color: red;
+    font-size: 13px;
+}
+
+.documentSubmit {
+   background: #08003B;
+}
+
+
+.pag2 {
+    display: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.forma {
+    display: flex;
+    margin-top: -30px;
+    border: 6px solid rgb(0, 23, 150);
+    border-radius: 10px;
+    width: 15%;
+    position: relative;
+    animation: forma_animation 3s infinite;
+}
+
+@keyframes  forma_animation {
+    0%{
+        left: 10px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        left:770px;
+        opacity: 0;
+    }
+    
+}
+
+.informacao1 {
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: -50px;
+    width:950px;
+    border: 8px solid #D3D5E0;
+    gap: 10px ;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.senha{
+    display: flex;
+    align-items: center;
+}
+
+div i{
+    color: #08003B;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    right: 50px;
+}
+
+.informacao2 {
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: -160px;
+    margin-bottom: -200px;
+    width:960px;
+    border: 8px solid #D3D5E0;
+    gap: 5px ;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.informacao3 {
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: -100px;
+    margin-bottom: -200px;
+    width:950px;
+    border: 8px solid #D3D5E0;
+    gap: 10px ;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mail{
+    width: 85%;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.prox {
+    border: 20px 10px #D3D5E0;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.pag3 {
+    display: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    gap: 30px;
+}
+
+.inforBasica{
+    display: flex;
+    flex-direction: column;
+    
+}
+.lugar {
+    width: 300px;
+}
+
+select{
+    padding: 5px;
+}
+
+select#estado {
+    width: 160px;
+}
+
+.volta {
+    border: 20px 10px #D3D5E0;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+button:hover {
+    background: #A8A9B3;
+    font-weight: bold;
+}
+
+.botao{
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    justify-content: center;
+}
+
+select {
+    background-color:#D3D5E0 ;
+    border: #08003B;
+    font-size: 30px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.pag4 {
+    display: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.ensino {
+    width: 80%;
+}
+
+.aviso {
+    margin-left: 10px;
+}
+
+.pag5 {
+    display: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.documentSubmit {
+    background: #abb6f2;
+    color: #4c3abd;
+    width: 35%;
+    font-size: 30px;
+    cursor: pointer;
+    border: 3px solid #c3c7f3;
+    transition: .5s;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(95, 95, 159);
+    width: 95%;
+    padding: 5px;
+}
+
+.documentSubmit:hover{
+    background: #08003B;
+    border: 3px solid #D3D5E0;
+    color: #A8A9B3;
+}
+
+.nomeArquivo1, .nomeArquivo2, .nomeArquivo3 {
+    background: #363f70;
+    color: #7279be;
+    font-size: 25px;
+    width: 70%;
+    padding: 5px;
+}
+
+.rodape{
+    flex-shrink: 0;
+    font-size: 23px;
+    color: #A8A9B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    background: rgb(0, 23, 150);
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: -12em;
+}
+
+.redesSociais{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    color: aliceblue;
+}
+
+.criador{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
