@@ -8,16 +8,6 @@ function irEtapa1(){
         pagina1.style.display = 'none';
         etapa1.style.display = 'flex';
     });
-    // var inscrevese = document.getElementById("botaoInscrever");
-    // var etapa1 = document.getElementById("et1");
-
-    // console.log(inscrevese)
-    // console.log(etapa1)
-
-    // inscrevese.addEventListener("click", function(){
-    //     etapa1 = document.getElementById("et1");
-    //     etapa1.classList.toggle("alterar");
-    // })
 };
 
 function mostrarSenha(){
