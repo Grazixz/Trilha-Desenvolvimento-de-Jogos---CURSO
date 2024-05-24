@@ -202,9 +202,11 @@ strong{
     }
 
     .rodape{
-        position: fixed;
+        position: absolute;
         width: 100%;
-        right: 0;
+        box-sizing: border-box; /* para garantir que o padding/borda não ultrapassem a largura */
+        padding-left: 50%;
+        padding-right: 90%;
     }
     
     .projetos{
