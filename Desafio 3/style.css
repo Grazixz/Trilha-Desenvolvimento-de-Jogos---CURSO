@@ -175,27 +175,16 @@ strong{
     }
 
     .menu{
-        background-color: #3f2e3e70;
         color: var(--cor1);
-        flex-direction: column;
         align-items: center;
         padding: 30px 0;
         margin: auto;
         position: fixed;
         width: 100%;
-        gap: 20px;
     }
 
     .menu:hover {
         right: 5px;
-    }
-
-    .menuMobile{
-        display: initial;
-        position: fixed;
-        right: 30px;
-        top: 15px;
-        background-color: none;
     }
 
     
