@@ -13,20 +13,3 @@ function aparecerTitulo(){
 }
 
 aparecerTitulo();
-
-var menuMobile = document.querySelector(".menuMobile");
-var menu = document.querySelector(".menu");
-var seClicarMenu = false;
-
-
-
-menuMobile.addEventListener('click', function(){
-    seClicarMenu ? menu.classList.add("invisible") + menuMobile.children[0].setAttribute('src', './img/menuMobile1.png') : menu.classList.remove("invisible") + menuMobile.children[0].setAttribute('src', './img/menuMobile2.png');
-
-    
-
-    seClicarMenu = !seClicarMenu
-    console.log (seClicarMenu)
-})
-
-
