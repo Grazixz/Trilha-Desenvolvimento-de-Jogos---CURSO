@@ -204,7 +204,7 @@ strong{
     .rodape{
         position: absolute;
         width: 100%;
-        box-sizing: border-box; /* para garantir que o padding/borda não ultrapassem a largura */
+        box-sizing: border-box; 
         padding-left: 50%;
         padding-right: 90%;
     }
